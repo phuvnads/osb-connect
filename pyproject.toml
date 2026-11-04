@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "osb-connect"
+version = "0.1.0"
+description = "AI marketing automation for Vietnamese small businesses: write posts in your voice with Claude, approve, publish."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Nguyen Van Phu" }]
+requires-python = ">=3.10"
+dependencies = ["anthropic>=1.0.0", "requests>=2.31"]
+
+[project.scripts]
+osb-connect = "osb_connect.cli:main"
+
+[tool.setuptools]
+packages = ["osb_connect"]

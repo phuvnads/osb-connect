@@ -1,0 +1,17 @@
+# secrets
+.env
+*.token
+*.key
+
+# user data
+/queue.csv
+/brain/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
