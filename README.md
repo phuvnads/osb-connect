@@ -100,3 +100,7 @@ OSB Connect giúp chủ shop nhỏ, người làm marketing online tự động 
 Nguyên tắc: dữ liệu nằm trên máy của bạn, không đăng gì khi chưa duyệt, mặc định chạy thử, chỉ dùng API chính thức, không bịa số liệu.
 
 Bắt đầu nhanh: xem mục Quick start ở trên. Thư mục mẫu: `examples/brain/`.
+
+## Author
+
+Built and maintained by Nguyen Van Phu ([@phuvnads](https://github.com/phuvnads)), more than 10 years in online marketing.
